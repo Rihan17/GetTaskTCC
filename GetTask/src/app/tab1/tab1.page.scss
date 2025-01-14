@@ -9,20 +9,49 @@ ion-title {
 }
 
 .iconPerfil {
-    width: 50px;
-    height: 50px;
-}
-
-ion-col{
-    text-align: start;
+    width: 45px;
+    height: 45px;
 }
 
 .Task {
-    text-align: center;
-    border: 2px solid #fff;
+    --text-align: center;
+    --border-width: 2px ;
+    --border-style: solid ;
+    --border-color: #fff;
+    --border-radius: 20px;
+    --background: #003785;
+    --box-shadow: 0px 0px 4px 3px rgba(0, 20, 107, 0.73);
+    --padding: 10px;
+    --color: #ffff;
+    width: 330px;
+    height: 44px;
+
+}
+
+.titulo {
+    background-color: #003785;
+    font-size: 16px;
+    
+}
+
+.TextoVagasDisp {
+    font-size: 24px;
+}
+
+.Vaga {
+    padding: 15px;
     border-radius: 20px;
-    background: #003785;
-    box-shadow: 0px 0px 4px 3px rgba(0, 20, 107, 0.73);
-    padding: 10px;
-    color: #ffff;
+    border: 2px solid #1465BB;
+    background: #FFF;
+    margin: 35px;
+}
+
+.TxtVaga {
+    font-size: 13px;
+    font-family: Arimo;
+}
+
+.iconUser {
+    width: 40px;
+    height: 40px;
 }
