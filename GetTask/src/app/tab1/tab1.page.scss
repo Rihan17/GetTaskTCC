@@ -1,9 +1,14 @@
-ion-title {
+ion-content {
+    --ion-background-color: #ffffff;
+}
+
+ion-col {
     color: #ffff;
 }
 
 .navbar {
-    padding: 50px;
+    position: relative;
+    height: 200px;
     background-color: #003785;
     border-radius: 0px 0px 20px 20px;
 }
@@ -22,10 +27,10 @@ ion-title {
     --background: #003785;
     --box-shadow: 0px 0px 4px 3px rgba(0, 20, 107, 0.73);
     --padding: 10px;
-    --color: #ffff;
-    width: 330px;
+    --color: #fff;
+    width: 300px;
     height: 44px;
-
+    margin-left: 30px;
 }
 
 .titulo {
@@ -36,6 +41,7 @@ ion-title {
 
 .TextoVagasDisp {
     font-size: 24px;
+    color: black;
 }
 
 .Vaga {
@@ -48,10 +54,14 @@ ion-title {
 
 .TxtVaga {
     font-size: 13px;
-    font-family: Arimo;
 }
 
 .iconUser {
     width: 40px;
     height: 40px;
+}
+
+.no-margin {
+    margin: 0;
+    padding: 0;
 }
