@@ -1,34 +1,101 @@
-<div class="navbar">
+<ion-content [fullscreen]="true">
 
+  <!-- NavBar -->
+  <ion-grid class="navbar">
+    <ion-row class="ion-justify-content-center">
+      <ion-col style="font-size: 16px;">GetTask</ion-col>
+      <ion-col size="2">
+        <ion-avatar>
+          <img class="iconPerfil" alt="Foto de Perfil" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+        </ion-avatar>
+      </ion-col>
+      <ion-col size="10" offset="4.5">
+        <h1>Olá, Rihan</h1>
+        <ion-icon name="star-outline" class="estrela"></ion-icon>
+        <ion-icon name="star-outline" class="estrela"></ion-icon>
+        <ion-icon name="star-outline" class="estrela"></ion-icon>
+        <ion-icon name="star-outline" class="estrela"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
-  <div style="font-size: 16px;">GetTask</div>
-  <div ><ion-avatar>
-      <img class="iconPerfil" alt="Foto de Perfil" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
-    </ion-avatar></div>
+  <!-- Quebra de linha -->
+  <br>
 
+  <!-- Botão Task + -->
+  <ion-button class="Task">Conheça o Task +</ion-button>
 
+  <!-- Titúlo Vagas Disponíveis -->
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="10" class="TextoVagasDisp">Vagas Disponíveis</ion-col>
+    </ion-row>
+  </ion-grid>
 
-</div>
+  <!-- Card Vaga -->
+  <ion-card class="Vaga">
+    <ion-card-header>
+      <ion-avatar style="width: 40px; height: 40px;">
+        <img alt="FotodePerfil" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+      </ion-avatar>
+      <ion-card-title style="color: black; font-size: 24px;">Levar uma encomenda</ion-card-title>
+    </ion-card-header>
 
-<br>
+    <ion-card-content>
+      Destino: São Paulo - SP
+    </ion-card-content>
+  </ion-card>
 
-<ion-button class="Task">Conheça o Task +</ion-button>
+  <ion-card class="Vaga">
+    <ion-card-header>
+      <ion-avatar style="width: 40px; height: 40px;">
+        <img alt="FotodePerfil" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+      </ion-avatar>
+      <ion-card-title style="color: black; font-size: 24px;">Levar uma encomenda</ion-card-title>
+    </ion-card-header>
 
-<ion-grid>
-  <ion-row class="ion-justify-content-center">
-    <ion-col size="10" class="TextoVagasDisp">Vagas Disponíveis</ion-col>
-  </ion-row>
-</ion-grid>
+    <ion-card-content>
+      Destino: São Paulo - SP
+    </ion-card-content>
+  </ion-card>
 
-<ion-card class="Vaga">
-  <ion-card-header>
-    <ion-avatar style="width: 40px; height: 40px;">
-      <img alt="FotodePerfil" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
-    </ion-avatar>
-    <ion-card-title style="color: black; font-size: 24px;">Levar uma encomenda</ion-card-title>
-  </ion-card-header>
+    <!-- Titúlo Vagas Aceitas -->
+    <ion-grid>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size="10" class="TextoVagasDisp">Vagas Aceitas</ion-col>
+      </ion-row>
+    </ion-grid>
+  
+    <!-- Card Vaga Aceita -->
+    <ion-card class="Vaga">
+      <ion-card-header>
+        <ion-avatar style="width: 40px; height: 40px;">
+          <img alt="FotodePerfil" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+        </ion-avatar>
+        <ion-card-title style="color: black; font-size: 24px;">Levar uma encomenda</ion-card-title>
+      </ion-card-header>
+  
+      <ion-card-content>
+        Destino: São Paulo - SP
+        <p style="color: #800000;">Entregar até: 12/12/2021</p>
+      </ion-card-content>
+    </ion-card>
 
-  <ion-card-content>
-    Destino: São Paulo - SP
-  </ion-card-content>
-</ion-card>
+    <ion-card class="Vaga">
+      <ion-card-header>
+        <ion-avatar style="width: 40px; height: 40px;">
+          <img alt="FotodePerfil" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+        </ion-avatar>
+        <ion-card-title style="color: black; font-size: 24px;">Levar uma encomenda</ion-card-title>
+      </ion-card-header>
+  
+      <ion-card-content>
+        Destino: São Paulo - SP
+        <p style="color: #800000;">Entregar até: 12/12/2021</p>
+      </ion-card-content>
+    </ion-card>
+
+    <!-- Botão Publicar Vaga -->
+  <ion-button class="PublicarVaga">Publique sua vaga aqui</ion-button>
+
+</ion-content>

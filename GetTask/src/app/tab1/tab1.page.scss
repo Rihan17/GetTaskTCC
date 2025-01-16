@@ -45,11 +45,11 @@ ion-col {
 }
 
 .Vaga {
-    padding: 15px;
+    height: 160px;
     border-radius: 20px;
     border: 2px solid #1465BB;
     background: #FFF;
-    margin: 35px;
+    margin: 10px;
 }
 
 .TxtVaga {
@@ -61,7 +61,17 @@ ion-col {
     height: 40px;
 }
 
-.no-margin {
-    margin: 0;
-    padding: 0;
+.estrela {
+    font-size: 33px;
+}
+
+.PublicarVaga {
+    --text-align: center;
+    --border-radius: 20px;
+    --background: #003785;
+    --padding: 10px;
+    --color: #fff;
+    width: 300px;
+    height: 44px;
+    margin-left: 30px;
 }
