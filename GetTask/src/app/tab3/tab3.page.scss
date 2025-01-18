@@ -1,0 +1,113 @@
+ion-content {
+    --background: #e6e6e4;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1;
+    height: 200px;
+    background-color: #003785;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.TextoConfiguracoes {
+    font-size: 32px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.CaixadeConfiguracoes {
+    background-color: #ffffff;
+    width: 320px;
+    height: 400px;
+    border-radius: 20px;
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    z-index: 2;
+}
+
+.NomeUser {
+    color: #000000;
+    position: absolute;
+    top: 30px;
+    font-size: 23px;
+}
+
+.email {
+    font-size: 11px;
+    color: #464646;
+    position: absolute;
+    top: 70px;
+}
+
+.Notificacoes {
+    color: #000000;
+    font-size: 16px;
+    position: absolute;
+    top: 120px;
+    justify-content: start;
+}
+
+ion-toggle {
+    --track-background: #ddd;
+}
+
+.iconenotificacoes {
+    font-size: 30px;
+    color: #000000;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+
+.iconepermissoes {
+    font-size: 30px;
+    color: #000000;
+    position: absolute;
+    top: 170px;
+    left: 10px;
+}
+
+.TextoPermissoes {
+    color: #000000;
+    font-size: 16px;
+    position: absolute;
+    top: 168px;
+    justify-content: start;
+}
+
+.iconversaoApp{
+    font-size: 30px;
+    color: #000000;
+    position: absolute;
+    top: 217px;
+    left: 10px;
+}
+
+.TextoVersaoApp {
+    color: #000000;
+    font-size: 16px;
+    position: absolute;
+    top: 215px;
+    justify-content: start;
+}
+
+.iconExcluirConta {
+    font-size: 30px;
+    color: #800000;
+    position: absolute;
+    top: 340px;
+    left: 10px;
+}
+
+.TextoExcluirConta {
+    color: #800000;
+    font-size: 16px;
+    position: absolute;
+    top: 340px;
+    justify-content: start;
+}

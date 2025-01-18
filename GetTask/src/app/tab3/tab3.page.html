@@ -1,17 +1,35 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+    <!-- NavBar -->
+    <ion-grid class="navbar">
+      <ion-row class="ion-justify-content-center">
+        <ion-col style="font-size: 16px;">GetTask</ion-col>
+        <ion-col size="10" style="padding: 15px;"></ion-col>
+        <ion-col class="TextoConfiguracoes ion-text-center" size="10">Configurações</ion-col>
+      </ion-row>
+    </ion-grid>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+    <!-- Configurações -->
+     <ion-grid class="CaixadeConfiguracoes">
+      <ion-row class="ion-justify-content-center">
+        <!-- Nome e email do Usuário -->
+        <ion-col class="NomeUser ion-text-center" size="10">Roberto</ion-col>
+        <ion-col class="email ion-justify-content-center ion-text-center">Email do Roberto</ion-col>
+
+        <!-- Notificações -->
+        <ion-icon name="notifications-outline" class="iconenotificacoes"></ion-icon>
+        <ion-col class="Notificacoes"><ion-toggle justify="space-between">ㅤㅤㅤNotificações</ion-toggle></ion-col>
+
+        <!-- Permissões -->
+        <ion-icon name="construct-outline" class="iconepermissoes"></ion-icon>
+        <ion-col class="TextoPermissoes">ㅤㅤㅤPermissões do Aplicativo</ion-col>
+
+        <!-- Sobre o App -->
+        <ion-icon name="phone-portrait-outline" class="iconversaoApp"></ion-icon>
+        <ion-col class="TextoVersaoApp">ㅤㅤㅤVersão do Appㅤㅤㅤㅤㅤㅤ1.0</ion-col>
+
+        <!-- Excluir Conta -->
+        <ion-icon name="trash-outline" class="iconExcluirConta"></ion-icon>
+        <ion-col class="TextoExcluirConta">ㅤㅤㅤExcluir Conta</ion-col>
+      </ion-row>
+     </ion-grid>
 </ion-content>
