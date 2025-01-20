@@ -29,9 +29,55 @@ ion-searchbar {
 }
 
 .Vaga {
-    height: 160px;
+    height: 95px;
     border-radius: 20px;
     border: 2px solid #1465BB;
     background: #FFF;
     margin: 10px;
+}
+
+.iconPerfilVaga {
+    position: relative;
+    left: 10px;
+    top: 7px;
+}
+
+.TituloVaga {
+    font-size: 13px;
+    color: #000000;
+    position:relative;
+    left: 20px;
+    top: 4px;
+    padding: 0px;
+}
+
+.LocalSaida {
+    font-size: 13px;
+    font-style: italic;
+    color: #000000;
+    opacity: 0.47;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    padding: 0px;
+}
+
+.DestinoVaga {
+    font-size: 11px;
+    font-style: italic;
+    color: #000000;
+    position: relative;
+    right: 25px;
+    top: 17px;
+    padding: 0px;
+}
+
+.PrazoVaga {
+    font-size: 11px;
+    font-style: italic;
+    color: #800000;
+    position: relative;
+    left: 150px;
+    top: 0px;
+    padding: 0px;
 }

@@ -1,0 +1,53 @@
+<ion-content [fullscreen]="true">
+  <!-- NavBar -->
+  <ion-grid class="navbar">
+    <ion-row class="ion-justify-content-center">
+      <ion-icon name="arrow-back-outline" class="back" (click)="voltarHome()"></ion-icon>
+      <ion-col class="GetTask">GetTask</ion-col>
+      <ion-col class="TextoConfiguracoes ion-text-center" size="12">Cadastre sua Vaga</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <!-- Nome da vaga -->
+  <ion-grid class="CaixadeConfiguracoes">
+    <ion-row class="ion-justify-content-center">
+
+      <ion-col class="NomeVaga">
+        <div class="labelcadastro">Nome da Vaga:</div>
+        <ion-input></ion-input>
+      </ion-col>
+
+      <ion-col class="NomeVaga">
+        <div class="labelcadastro">Endereço de Coleta:</div>
+        <ion-input></ion-input>
+      </ion-col>
+
+      <ion-col class="NomeVaga">
+        <div class="labelcadastro">Endereço de Destino:</div>
+        <ion-input></ion-input>
+      </ion-col>
+
+      <ion-col class="NomeVaga">
+        <div class="labelcadastro">Quantidade de Itens:</div>
+        <ion-input></ion-input>
+      </ion-col>
+
+      <ion-col class="NomeVaga">
+        <div class="labelcadastro">Peso (em kg):</div>
+        <ion-input></ion-input>
+      </ion-col>
+
+      <ion-col class="NomeVaga">
+        <div class="labelcadastro">Valor do serviço (R$):</div>
+        <ion-input></ion-input>
+      </ion-col>
+
+      <!-- Botão Publicar Vaga -->
+      <ion-button class="PublicarVaga">Publicar Vaga</ion-button>
+
+    </ion-row>
+  </ion-grid>
+
+
+
+</ion-content>

@@ -4,17 +4,21 @@
   <ion-grid class="navbar">
     <ion-row class="ion-justify-content-center">
       <ion-col style="font-size: 16px;">GetTask</ion-col>
-      <ion-col size="2">
-        <ion-avatar>
-          <img class="iconPerfil" alt="Foto de Perfil" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
-        </ion-avatar>
+      <ion-col>
+        <div class="FotoPerfil">
+          <ion-avatar>
+            <img class="iconPerfil" alt="Foto de Perfil" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+          </ion-avatar>
+        </div>
       </ion-col>
-      <ion-col size="10" offset="4.5">
-        <h1>Olá, Rihan</h1>
-        <ion-icon name="star-outline" class="estrela"></ion-icon>
-        <ion-icon name="star-outline" class="estrela"></ion-icon>
-        <ion-icon name="star-outline" class="estrela"></ion-icon>
-        <ion-icon name="star-outline" class="estrela"></ion-icon>
+      <ion-col size="5">
+        <div class="NomeUser">Olá, Rihan</div>
+        <div class="EstrelaAvaliacao">
+          <ion-icon name="star-outline" class="estrela"></ion-icon>
+          <ion-icon name="star-outline" class="estrela"></ion-icon>
+          <ion-icon name="star-outline" class="estrela"></ion-icon>
+          <ion-icon name="star-outline" class="estrela"></ion-icon>
+        </div>
       </ion-col>
     </ion-row>
   </ion-grid>
@@ -33,69 +37,119 @@
   </ion-grid>
 
   <!-- Card Vaga -->
-  <ion-card class="Vaga">
-    <ion-card-header>
-      <ion-avatar style="width: 40px; height: 40px;">
+  <ion-grid class="Vaga">
+    <ion-row>
+      <ion-avatar style="width: 40px; height: 40px;" class="iconPerfilVaga">
         <img alt="FotodePerfil" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
       </ion-avatar>
-      <ion-card-title style="color: black; font-size: 24px;">Levar uma encomenda</ion-card-title>
-    </ion-card-header>
+      <ion-col>
+        <div class="TituloVaga">Levar uma encomenda a São Paulo</div>
+        <div class="LocalSaida">Saída: Santos - Canal 4</div>
+        <div class="DestinoVaga">Destino: São Paulo</div>
+        <div class="PrazoVaga">Entregar até 22:00</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
-    <ion-card-content>
-      Destino: São Paulo - SP
-    </ion-card-content>
-  </ion-card>
-
-  <ion-card class="Vaga">
-    <ion-card-header>
-      <ion-avatar style="width: 40px; height: 40px;">
+  <!-- Card Vaga -->
+  <ion-grid class="Vaga">
+    <ion-row>
+      <ion-avatar style="width: 40px; height: 40px;" class="iconPerfilVaga">
         <img alt="FotodePerfil" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
       </ion-avatar>
-      <ion-card-title style="color: black; font-size: 24px;">Levar uma encomenda</ion-card-title>
-    </ion-card-header>
+      <ion-col>
+        <div class="TituloVaga">Levar uma encomenda a São Paulo</div>
+        <div class="LocalSaida">Saída: Santos - Canal 4</div>
+        <div class="DestinoVaga">Destino: São Paulo</div>
+        <div class="PrazoVaga">Entregar até 22:00</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
-    <ion-card-content>
-      Destino: São Paulo - SP
-    </ion-card-content>
-  </ion-card>
+  <!-- Card Vaga -->
+  <ion-grid class="Vaga">
+    <ion-row>
+      <ion-avatar style="width: 40px; height: 40px;" class="iconPerfilVaga">
+        <img alt="FotodePerfil" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+      </ion-avatar>
+      <ion-col>
+        <div class="TituloVaga">Levar uma encomenda a São Paulo</div>
+        <div class="LocalSaida">Saída: Santos - Canal 4</div>
+        <div class="DestinoVaga">Destino: São Paulo</div>
+        <div class="PrazoVaga">Entregar até 22:00</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
-    <!-- Titúlo Vagas Aceitas -->
-    <ion-grid>
-      <ion-row class="ion-justify-content-center">
-        <ion-col size="10" class="TextoVagasDisp">Vagas Aceitas</ion-col>
-      </ion-row>
-    </ion-grid>
-  
-    <!-- Card Vaga Aceita -->
-    <ion-card class="Vaga">
-      <ion-card-header>
-        <ion-avatar style="width: 40px; height: 40px;">
-          <img alt="FotodePerfil" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
-        </ion-avatar>
-        <ion-card-title style="color: black; font-size: 24px;">Levar uma encomenda</ion-card-title>
-      </ion-card-header>
-  
-      <ion-card-content>
-        Destino: São Paulo - SP
-        <p style="color: #800000;">Entregar até: 12/12/2021</p>
-      </ion-card-content>
-    </ion-card>
 
-    <ion-card class="Vaga">
-      <ion-card-header>
-        <ion-avatar style="width: 40px; height: 40px;">
-          <img alt="FotodePerfil" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
-        </ion-avatar>
-        <ion-card-title style="color: black; font-size: 24px;">Levar uma encomenda</ion-card-title>
-      </ion-card-header>
-  
-      <ion-card-content>
-        Destino: São Paulo - SP
-        <p style="color: #800000;">Entregar até: 12/12/2021</p>
-      </ion-card-content>
-    </ion-card>
+  <!-- Titúlo Vagas Aceitas -->
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="10" class="TextoVagasDisp">Vagas Aceitas</ion-col>
+    </ion-row>
+  </ion-grid>
 
-    <!-- Botão Publicar Vaga -->
-  <ion-button class="PublicarVaga">Publique sua vaga aqui</ion-button>
+  <!-- Card Vaga -->
+  <ion-grid class="Vaga">
+    <ion-row>
+      <ion-avatar style="width: 40px; height: 40px;" class="iconPerfilVaga">
+        <img alt="FotodePerfil" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+      </ion-avatar>
+      <ion-col>
+        <div class="TituloVaga">Levar uma encomenda a São Paulo</div>
+        <div class="LocalSaida">Saída: Santos - Canal 4</div>
+        <div class="DestinoVaga">Destino: São Paulo</div>
+        <div class="PrazoVaga">Entregar até 22:00</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <!-- Card Vaga -->
+  <ion-grid class="Vaga">
+    <ion-row>
+      <ion-avatar style="width: 40px; height: 40px;" class="iconPerfilVaga">
+        <img alt="FotodePerfil" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+      </ion-avatar>
+      <ion-col>
+        <div class="TituloVaga">Levar uma encomenda a São Paulo</div>
+        <div class="LocalSaida">Saída: Santos - Canal 4</div>
+        <div class="DestinoVaga">Destino: São Paulo</div>
+        <div class="PrazoVaga">Entregar até 22:00</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <!-- Card Vaga -->
+  <ion-grid class="Vaga">
+    <ion-row>
+      <ion-avatar style="width: 40px; height: 40px;" class="iconPerfilVaga">
+        <img alt="FotodePerfil" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+      </ion-avatar>
+      <ion-col>
+        <div class="TituloVaga">Levar uma encomenda a São Paulo</div>
+        <div class="LocalSaida">Saída: Santos - Canal 4</div>
+        <div class="DestinoVaga">Destino: São Paulo</div>
+        <div class="PrazoVaga">Entregar até 22:00</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <!-- Card Vaga -->
+  <ion-grid class="Vaga">
+    <ion-row>
+      <ion-avatar style="width: 40px; height: 40px;" class="iconPerfilVaga">
+        <img alt="FotodePerfil" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+      </ion-avatar>
+      <ion-col>
+        <div class="TituloVaga">Levar uma encomenda a São Paulo</div>
+        <div class="LocalSaida">Saída: Santos - Canal 4</div>
+        <div class="DestinoVaga">Destino: São Paulo</div>
+        <div class="PrazoVaga">Entregar até 22:00</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <!-- Botão Publicar Vaga -->
+  <ion-button class="PublicarVaga" (click)="cadastroVaga()">Publique sua vaga aqui</ion-button>
 
 </ion-content>

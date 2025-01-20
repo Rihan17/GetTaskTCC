@@ -1,0 +1,74 @@
+ion-content {
+    --background: #e6e6e4;
+}
+
+.GetTask {
+    left: 230px;
+}
+
+.back {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1;
+    height: 200px;
+    background-color: #003785;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.TextoConfiguracoes {
+    font-size: 30px;
+    color: #ffffff;
+    top: 25px;
+}
+
+.CaixadeConfiguracoes {
+    background-color: #ffffff;
+    width: 320px;
+    height: 600px;
+    border-radius: 20px;
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    z-index: 2;
+}
+
+ion-input {
+    position: relative;
+    height: 1px;
+    width: 300px;
+    top: 5px;
+    border-radius: 20px;
+    border: 2px solid #003785;
+    color: #000000;
+    --padding-start: 15px;
+    --padding-bottom: 6px;
+    --highlight-color-focused: #ffffff;
+}
+
+.labelcadastro {
+    position: relative;
+    left: 15px;
+    color: #000000;
+    font-size: 16px;
+}
+
+.NomeVaga {
+    position: relative;
+    top: 20px;
+}
+
+.PublicarVaga {
+    --text-align: center;
+    --border-radius: 20px;
+    --background: #003785;
+    --padding: 10px;
+    --color: #fff;
+    width: 200px;
+    height: 44px;
+    position: relative;
+    top: 50px;
+}
