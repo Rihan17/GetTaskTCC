@@ -1,0 +1,35 @@
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-icon name="arrow-back-outline" class="iconVoltarHome" (click)="voltarHome()"></ion-icon>
+      <div class="Titulo">Planos</div>
+      <ion-col class="SubTitulo" size="11">
+        <div>Conheça o plano TASK+ com muitas vantagens para você motoboy ! Você pode continuar com o nosso plano
+          gratuito mas com limitações.</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid class="GridPlanoGratuito">
+    <ion-row>
+      <ion-col class="TituloPlanoGratuito">Gratuito</ion-col>
+      <ul class="ListaPlanoGratuito">
+        <li>Acesso as vagas;</li>
+        <li>Limite de 3 inscrições por dia;</li>
+      </ul>
+      <ion-button class="BotaoGratuito" [disabled]="true">Gratuito</ion-button>    
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid class="GridPlanoPago">
+    <ion-row>
+      <ion-col class="TituloPlanoPago">Task+</ion-col>
+      <ul class="ListaPlanoPago">
+        <li>Acesso as vagas;</li>
+        <li>Inscrições Ilimitadas;</li>
+        <li>Recebimento priorizado de vagas.</li>
+      </ul>
+      <ion-button class="BotaoTaskPlus" >R$2,99 / mensal</ion-button>
+    </ion-row>
+  </ion-grid>
+</ion-content>

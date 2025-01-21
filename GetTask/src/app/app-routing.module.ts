@@ -9,6 +9,10 @@ const routes: Routes = [
   {
     path: 'cadvaga',
     loadChildren: () => import('./cadvaga/cadvaga.module').then(m => m.CadvagaPageModule)
+  },
+  {
+    path: 'taskplus',
+    loadChildren: () => import('./taskplus/taskplus.module').then( m => m.TaskplusPageModule)
   }
 ];
 

@@ -15,4 +15,9 @@ export class Tab1Page {
     this.navCtrl.navigateForward('/cadvaga');
 
   }
+
+  planosTaskPlus() {
+    this.navCtrl.navigateForward('/taskplus');
+
+  }
 }

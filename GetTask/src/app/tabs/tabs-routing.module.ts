@@ -24,6 +24,10 @@ const routes: Routes = [
         loadChildren: () => import('../cadvaga/cadvaga.module').then( m => m.CadvagaPageModule)
       },
       {
+        path: 'taskplus',
+        loadChildren: () => import('../taskplus/taskplus.module').then( m => m.TaskplusPageModule)
+      },
+      {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'
