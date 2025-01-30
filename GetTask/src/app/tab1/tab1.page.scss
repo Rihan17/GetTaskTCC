@@ -149,3 +149,159 @@ ion-col {
     top: 0px;
     padding: 0px;
 }
+
+.IconPerfilModalVaga {
+    width: 40px;
+    height: 40px;
+    position: relative; /* ou relative, dependendo do seu layout */
+    top: 80px; /* Ajuste conforme necessário */
+    left: 20px;
+}
+
+ion-modal#modal-vaga {
+    --width: 300px;
+    --height: 400px;
+    --border-radius: 20px;
+    --box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+  }
+  
+  ion-modal#modal-vaga .modal {
+    position: inherit;
+    width: 300px;
+    height: 400px;
+ 
+  }
+
+  ion-modal#modal-vaga .iconLocalModal {
+    font-size: 30px;
+    color: #000000;
+    position: relative;
+    top: 40px;
+  }
+
+  ion-modal#modal-vaga .TxtTituloEndereco {
+    color: #000000;
+    font-size: 15px;
+    position: relative;
+    top: 45px;
+  }
+
+  ion-modal#modal-vaga .TxtConteudoEndereco {
+    color: #000000;
+    font-size: 12px;
+    position: relative;
+    top: 48px;
+    left: 10px;
+    opacity: 0.8;
+  }
+
+  ion-modal#modal-vaga .iconPesoModal {
+    font-size: 30px;
+    color: #000000;
+    position: relative;
+    top: 50px;
+  }
+
+  ion-modal#modal-vaga .TxtTituloPeso {
+    color: #000000;
+    font-size: 15px;
+    position: relative;
+    top: 55px;
+    left: 5px;
+  }
+
+  ion-modal#modal-vaga .TxtConteudoPeso {
+    color: #000000;
+    font-size: 14px;
+    position: relative;
+    top: 58px;
+    left: 10px;
+    opacity: 0.8;
+  }
+
+  ion-modal#modal-vaga .iconItensModal {
+    font-size: 30px;
+    color: #000000;
+    position: relative;
+    top: 60px;
+  }
+
+  ion-modal#modal-vaga .TxtTituloItens {
+    color: #000000;
+    font-size: 15px;
+    position: relative;
+    top: 65px;
+    left: 5px;
+  }
+
+  ion-modal#modal-vaga .TxtConteudoItens {
+    color: #000000;
+    font-size: 14px;
+    position: relative;
+    top: 68px;
+    left: 10px;
+    opacity: 0.8;
+  }
+
+  ion-modal#modal-vaga .iconValorModal {
+    font-size: 30px;
+    color: #000000;
+    position: relative;
+    top: 70px;
+  }
+
+  ion-modal#modal-vaga .TxtTituloValor {
+    color: #000000;
+    font-size: 15px;
+    position: relative;
+    top: 75px;
+    left: 5px;
+  }
+
+  ion-modal#modal-vaga .TxtConteudoValor {
+    color: #000000;
+    font-size: 14px;
+    position: relative;
+    top: 78px;
+    left: 10px;
+    opacity: 0.8;
+  }
+
+  ion-modal#modal-vaga .TxtTituloPrazo {
+    color: #000000;
+    font-size: 15px;
+    position: relative;
+    top: 75px;
+    left: 5px;
+  }
+
+  ion-modal#modal-vaga .TxtConteudoPrazo {
+    color: #000000;
+    font-size: 14px;
+    position: relative;
+    top: 77px;
+    left: 10px;
+    opacity: 0.8;
+  }
+
+  ion-modal#modal-vaga .TituloVagaModal {
+    color: #000000;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  ion-modal#modal-vaga .BotaoAceitarVaga {
+    position: relative;
+    top: 75px;
+    left: 70px;
+    --text-align: center;
+    --border-radius: 20px;
+    --background: #003785;
+    --color:#fff;
+    width: 150px;
+    height: 44px;
+  }
+  
