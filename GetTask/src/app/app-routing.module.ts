@@ -3,7 +3,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'home',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
   },
   {
@@ -13,7 +13,12 @@ const routes: Routes = [
   {
     path: 'taskplus',
     loadChildren: () => import('./taskplus/taskplus.module').then( m => m.TaskplusPageModule)
+  },
+  {
+    path: '',
+    loadChildren: () => import('./tela-login/tela-login.module').then( m => m.TelaLoginPageModule)
   }
+
 ];
 
 @NgModule({
