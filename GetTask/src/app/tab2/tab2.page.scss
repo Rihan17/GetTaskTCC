@@ -237,3 +237,15 @@ ion-modal#modal-vaga {
     height: 44px;
   }
   
+  @media (width: 414px) {
+    .Vaga {
+      height: 95px;
+      border-radius: 20px;
+      border: 2px solid #1465BB;
+      background: #FFF;
+      margin: 10px;
+      width: 350px;
+      position: relative;
+      left: 20px;
+  }
+  }

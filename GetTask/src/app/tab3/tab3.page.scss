@@ -111,3 +111,16 @@ ion-toggle {
     top: 340px;
     justify-content: start;
 }
+
+@media (width: 414px) {
+    .CaixadeConfiguracoes {
+        background-color: #ffffff;
+        width: 320px;
+        height: 400px;
+        border-radius: 20px;
+        position: absolute;
+        top: 160px;
+        left: 50px;
+        z-index: 2;
+    }
+}

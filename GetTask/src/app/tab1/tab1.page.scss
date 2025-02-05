@@ -304,4 +304,91 @@ ion-modal#modal-vaga {
     width: 150px;
     height: 44px;
   }
+
+  @media (width: 414px) {
+    .NomeUser {
+        font-size: 20px;
+        position: relative;
+        top: 60px;
+        right: 90px;
+    }
+
+    .EstrelaAvaliacao {
+        position: relative;
+        top: 60px;
+        right: 105px;
+    }
+
+    .iconPerfil {
+        width: 40px;
+        height: 40px;
+    }
+
+    .FotoPerfil {
+        position: relative;
+        padding: 0px;
+        top: 0px;
+        left: 225px;
+    }
+
+    .Task {
+        --text-align: center;
+        --border-width: 2px ;
+        --border-style: solid ;
+        --border-color: #fff;
+        --border-radius: 20px;
+        --background: #003785;
+        --box-shadow: 0px 0px 4px 3px rgba(0, 20, 107, 0.73);
+        --padding: 10px;
+        --color: #fff;
+        width: 300px;
+        height: 44px;
+        margin-left: 55px;
+    }
+
+    .titulo {
+        background-color: #003785;
+        font-size: 16px;
+        
+    }
+
+    .TextoVagasDisp {
+        font-size: 24px;
+        color: black;
+    }
+
+    .Vaga {
+        height: 100px;
+        border-radius: 20px;
+        border: 2px solid #1465BB;
+        background: #FFF;
+        width: 350px;
+        position: relative;
+        left: 20px;
+    }
+
+    .TxtVaga {
+        font-size: 13px;
+    }
+
+    .iconUser {
+        width: 40px;
+        height: 40px;
+    }
+
+    .estrela {
+        font-size: 33px;
+    }
+
+    .PublicarVaga {
+        --text-align: center;
+        --border-radius: 20px;
+        --background: #003785;
+        --padding: 10px;
+        --color: #fff;
+        width: 300px;
+        height: 44px;
+        margin-left: 55px;
+    }
+  }
   

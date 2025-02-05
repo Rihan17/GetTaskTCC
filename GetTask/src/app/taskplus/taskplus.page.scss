@@ -103,3 +103,28 @@ ion-content {
 li {
     margin-bottom: 15px;
 }
+
+@media (width: 414px) {
+    .Titulo {
+        font-size: 32px;
+        color: #003785;
+        text-align: center;
+        position: relative;
+        top: 60px;
+        left: 110px;
+    }
+
+    .BotaoTaskPlus {
+        --text-align: center;
+        --border-radius: 20px;
+        --background: #003785;
+        --padding: 10px;
+        --color: #fff;
+        width: 160px;
+        height: 44px;
+        position: relative;
+        top: 60px;
+        left: 120px;
+        font-size: 15px;
+    }
+}
