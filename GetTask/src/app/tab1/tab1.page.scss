@@ -305,7 +305,7 @@ ion-modal#modal-vaga {
     height: 44px;
   }
 
-  @media (width: 414px) {
+  @media (max-width: 414px) {
     .NomeUser {
         font-size: 20px;
         position: relative;
