@@ -13,7 +13,11 @@ const routes: Routes = [
   {
     path: 'taskplus',
     loadChildren: () => import('./taskplus/taskplus.module').then( m => m.TaskplusPageModule)
-  }
+  },
+  {
+    path: 'tela-login',
+    loadChildren: () => import('./tela-login/tela-login.module').then( m => m.TelaLoginPageModule)
+  },
 ];
 
 @NgModule({

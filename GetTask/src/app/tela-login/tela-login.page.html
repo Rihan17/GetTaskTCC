@@ -1,0 +1,68 @@
+<div class="teste">
+  <ion-grid >
+    <ion-row >
+      <ion-col class="get">
+        <h1 class="get">
+          GetTask
+        </h1>
+      </ion-col>
+    </ion-row>
+    <ion-row class="separacao">
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-title class="titulo">
+          Login
+        </ion-title>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>
+
+<div class="l">
+  <ion-grid>
+    <ion-row>
+      <ion-col class="logo">
+        <ion-img src="../../assets/img/logo_texto 1.png"> </ion-img>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item class="custom-item">
+          <ion-label class="text-black">Login</ion-label>
+        </ion-item>
+        <ion-item class="custom-item">
+          <ion-input [(ngModel)]="nomeusuario"  type="email" class="input"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item class="custom-item">
+          <ion-label class="text-black">Senha</ion-label>
+        </ion-item>
+        <ion-item class="custom-item">
+          <ion-input [(ngModel)]="senhausuario" type="password" class="input"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item style="margin-top: 10%;"  class="custom-item">
+          <ion-button (click)="validarLogin()" class="custom-button">Entrar</ion-button>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item style="margin-top: 5%;"  class="custom-item">
+          <ion-button class="custom-button">Cadastrar-se</ion-button>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>

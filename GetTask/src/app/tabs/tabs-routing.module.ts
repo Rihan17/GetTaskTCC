@@ -28,15 +28,19 @@ const routes: Routes = [
         loadChildren: () => import('../taskplus/taskplus.module').then( m => m.TaskplusPageModule)
       },
       {
+        path: 'tela-login',
+        loadChildren: () => import('../tela-login/tela-login.module').then( m => m.TelaLoginPageModule)
+      },
+      {
         path: '',
-        redirectTo: '/tabs/tab1',
+        redirectTo: '/tela-login',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/tab1',
+    redirectTo: '/tela-login',
     pathMatch: 'full'
   }
 ];
